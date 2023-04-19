@@ -1,15 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pizza Form</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
+  <header>
+    <h1>¡Ayuda a Edu a pedir una pizza!</h1>
+  </header>
+  <main class="main-container">
+    <div class="form-container">
+      <form action="" class="form">
+        <section class="type">
+          <h3>Tipo</h3>
+          <div class="size-form">
+            <label for="pizza-size">Tamaño de pizza</label>
+            <div>
+              <select name="size" class="pizza-size">
+                <option value="small">Pequeña</option>
+                <option value="medium">Mediana</option>
+                <option value="big">Grande</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label for="pizza-type">Tipo de masa</label>
+            <div>
+              <select name="size" class="pizza-size">
+                <option value="thin">Fina</option>
+                <option value="thick">Gruesa</option>
+                <option value="bread">Pan</option>
+              </select>
+            </div>
+          </div>
+        </section>
+        <section class="ingredients">
+          <h3>Ingredientes</h3>
+          <label for="pizza-ingredients" class="ingredients-form">
+            <div>
+              <input type="checkbox" id="pepperoni" name="pepperoni">
+              <label for="pepperoni">Pepperoni</label>
+            </div>
+            <div>
+              <input type="checkbox" id="pollo" name="pollo">
+              <label for="pollo">Pollo</label>
+            </div>
+            <div>
+              <input type="checkbox" id="setas" name="setas">
+              <label for="setas">Setas</label>
+            </div>
+          </label>
+          <div>
+            <input type="button" class="order-button" value="Pedir pizza">
+          </div>
+        </section>
+      </form>
+    </div>
+  </main>
 </body>
 
 </html>

@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  text-align: center;
+}
+
+.main-container {
+  padding: 30px;
+}
+
+.type {
+  padding: 15px;
+  text-align: left;
+}
+
+.ingredients {
+  padding: 15px;
+}
+
+.size-form {
+  font-size: 1.2rem;
+}
+
+.pizza-size {
+  padding: 10px 50px;
+  font-size: 1rem;
+}
